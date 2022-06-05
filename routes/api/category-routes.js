@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const { Category, Product } = require('../../models');
+const { update } = require('../../models/Product');
 
 // The `/api/categories` endpoint
 
@@ -32,6 +33,7 @@ router.get('/:id', async (req, res) => {
   })
   .then((category) => {
     res.json(category);
+    console.log(category)
   })
   .catch((err) => {
     res.json(err);
@@ -43,7 +45,7 @@ router.post('/', async (req, res) => {
   await Category.create(req.body)
   .then((newCategory) => 
   res.status(200).json(newCategory))
-
+  console.log(newCategory)
   .catch((err) => {
     console.log(err);
     res.status(400).json(err)
@@ -61,6 +63,7 @@ router.put('/:id', async (req, res) => {
  })
  .then(cat => Category.findByPk(req.params.id))
  .then((updatedCategory) => res.status(200).json(updatedCategory))
+ console.log(updatedCategory)
  .catch((err) => {res.json(err)})
 });
 
@@ -71,6 +74,7 @@ router.delete('/:id', async (req, res) => {
     },
   })
   .then((removeCategory) => {
+    console.log(removeCategory);
     res.json(`This category has been removed`);
   })
   .catch((err) => {res.json(err)});
