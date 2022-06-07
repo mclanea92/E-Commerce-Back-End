@@ -23,6 +23,7 @@ router.get('/', async (req, res) => {
   })
 });
 
+//gets tag by its id
 router.get('/:id', async (req, res) => {
   // find a single tag by its `id`
   // be sure to include its associated Product data
@@ -41,6 +42,7 @@ router.get('/:id', async (req, res) => {
   })
 });
 
+// creates a new tag
 router.post('/', async (req, res) => {
   // create a new tag
   await Tag.create({
@@ -54,6 +56,7 @@ router.post('/', async (req, res) => {
   })
 });
 
+// updates a tag
 router.put('/:id', async (req, res) => {
   // update a tag's name by its `id` value
   await Tag.update({
@@ -72,6 +75,7 @@ router.put('/:id', async (req, res) => {
   });
 });
 
+//deletes a tag
 router.delete('/:id', async (req, res) => {
   // delete on tag by its `id` value
   await Tag.destroy({
