@@ -19,7 +19,8 @@ My task for this project was to create a database from the starter code provided
 https://github.com/mclanea92/E-Commerce-Back-End
 
 ## Video Tutorial
-https://drive.google.com/file/d/1KtZyAQ66h8TrK5S0CBSvpzEOsvKr9Qs-/view?usp=sharing
+
+https://drive.google.com/file/d/1JFfzkaIlUk1L3ayZP6-SiSWxvnXRVJhK/view?usp=sharing
 
 ## Acceptance Criteria
 ```md

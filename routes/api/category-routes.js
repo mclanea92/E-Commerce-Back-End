@@ -4,6 +4,7 @@ const { update } = require('../../models/Product');
 
 // The `/api/categories` endpoint
 
+//get route for category
 router.get('/', async (req, res) => {
   // find all categories
   await Category.findAll({
@@ -18,6 +19,7 @@ router.get('/', async (req, res) => {
     res.json(categories);
   })
 });
+
 
 router.get('/:id', async (req, res) => {
   // find one category by its `id` value
