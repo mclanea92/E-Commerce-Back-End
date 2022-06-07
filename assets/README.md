@@ -20,7 +20,7 @@ https://github.com/mclanea92/E-Commerce-Back-End
 
 ## Video Tutorial
 
-https://drive.google.com/file/d/1JFfzkaIlUk1L3ayZP6-SiSWxvnXRVJhK/view?usp=sharing
+https://share.vidyard.com/watch/f6AwBnuyjT8shf9LfAnVa3?
 
 ## Acceptance Criteria
 ```md
