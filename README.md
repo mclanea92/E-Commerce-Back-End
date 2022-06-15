@@ -43,10 +43,10 @@ To test this, you will need to first open the terminal and download sequlize & m
 ## Screenshots
 
 The screenshot below is the model for Products which let the server and database know what the table should look like.
-![photo of the models for products](products.png)
+![photo of the models for products](./assets/products.png)
 
 The screenshot below is from insomina when it was getting the tags from the database
-![photo of insomina](./insomina.png)
+![photo of insomina](./assets/insomina.png)
 
 This last screenshot is the api routes made for the server which help insomina access the database correctly
-![api routes for get, put and delete](./routes.png)
+![api routes for get, put and delete](./assets/routes.png)
